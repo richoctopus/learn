@@ -87,7 +87,7 @@ export default defineComponent({
         ) : (
           ""
         )}
-        {slots.default ? slots.default() : "按钮"}
+        {slots.default ? slots.default() : "按钮11"}
       </button>
     );
   },
